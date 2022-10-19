@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+.ist2
+{
+    border: 5px solid #c8ccd1;
+    background-color: #f8f9fa;
+    width: 290px;
+    height: 380px;
+    float: left;
+    margin: 7px 7px 7px;    
+}
+.Textp
+{
+    text-align: justify;
+    font-size: 19px;
+    font-family: serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plr-info
+{
+    
+    
+    text-align: center;
+    font-family: cursive;
+}
+.sidenavl2{
+  box-shadow: -3px -5px 10px;
+  height: 100%;
+  width: 100px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #512b82; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+.sidenavr2{
+  height: 100%; 
+  width: 100px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  right:  0;
+  background-color: #512b82 ; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+  box-shadow: 3px -5px 10px;
+}
+.Entvid
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+
+}
+.sidenavr22{
+
+    box-shadow: -3px -5px 10px;
+    height: 5%;
+    width: -webkit-fill-available;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #512b82;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.toptext {
+    margin: -13px auto;
+    box-shadow: 0px 0px 17px #000c;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 1;
+    
+    
+}

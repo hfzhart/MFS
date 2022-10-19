@@ -1,0 +1,186 @@
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.topnav {
+    background-color: #512b82;
+    overflow: hidden;
+    
+}
+
+
+.topnav a {
+    box-shadow: 0px 0px 2px #000c; 
+    float: left;
+    color: #27ff00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.topnav a:hover {
+    
+    background-color: #00ff1d;
+    color: #0c85c6;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.card-photo{
+    padding-top: 12px;
+    display: block;
+    width: 480px;
+    height:150px;
+    margin: 0 auto;
+    
+ 
+    
+}
+.card-title{
+    color: #ffb12e;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+* {box-sizing: content-box; margin: 0;}
+.Text{
+    text-align: justify;
+    font-size: 19px;
+    font-family: serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.Logo-info
+{
+    
+    
+    text-align: center;
+    font-family: cursive;
+}
+.man
+{
+    width: 100%;
+    max-width: 700px;
+    height: 410px;
+    float: left;
+    margin: 7px 7px 7px;
+    display: block;
+}
+.LosLogo
+{
+    
+width: 616px;
+    height: 350px;
+    float: left;
+    margin: 7px 7px 7px;    
+}
+.Text1 
+{
+    text-align: justify;
+    font-size: 27px;
+    font-family: serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ist1
+{
+    border: 5px solid #c8ccd1;
+    background-color: #f8f9fa;
+    width: 190px;
+    height: 280px;
+    float: left;
+    margin: 7px 7px 7px;    
+}
+.sidenavl {
+  box-shadow: -3px -5px 10px;
+  height: 100%; 
+  width: 100px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #512b82; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenavr {
+  height: 100%; 
+  width: 100px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  right:  0;
+  background-color: #512b82 ; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+  box-shadow: 3px -5px 10px;
+}
+.Text2
+{
+    text-align: justify;
+    border: 5px solid #c8ccd1;
+    background-color: #f8f9fa;
+    width: 300;
+    height: 280px;
+    float: left;
+    margin: 7px 7px 7px;    
+}
+
+table {
+margin: auto;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #7200d4;
+color: white;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #fcb20c;
+
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
